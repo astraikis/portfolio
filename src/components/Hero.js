@@ -6,13 +6,13 @@ function Hero() {
     return (
         <div className="px-12 lg:px-32 md:px-24 pt-48 pb-48 flex items-center">
             <div>
-                <h1 className="text-5xl text-slate-800 font-serif">
+                <h1 className="text-5xl text-slate-700 font-serif">
                     hi, my name's jackson
                 </h1>
                 <p className="py-5 text-slate-600 max-w-xl">
-                    i'm a CS student @ <span className="text-indigo-700 font-bold">UNCG</span> planning to graduate in december 2024.
+                    i'm a CS student @ <span className="text-teal-600 font-bold">UNCG</span> planning to graduate in december 2024.
                     i love working with python, javascript, and go to build unique full stack applications.
-                    i most recently worked @ <span className="text-indigo-700 font-bold">IBM</span> as a backend SWE intern.
+                    i most recently worked @ <span className="text-teal-600 font-bold">IBM</span> as a backend SWE intern.
                 </p>
                 <div className="flex flex-row">
                     <a href="https://github.com/astraikis" class="text-slate-400 transition-all motion-reduce:transition-none hover:text-slate-500 w-6" target="_blank" rel="noopener noreferrer">
@@ -31,7 +31,7 @@ function Hero() {
             <img
                 src={profilePic}
                 alt="headshot"
-                className="rounded-3xl w-56 lg:ml-32 ml-24 block hidden md:block"
+                className="rounded-3xl w-56 lg:ml-32 ml-24 block hidden md:block drop-shadow-lg"
             />
         </div>
     )

@@ -1,18 +1,102 @@
+import {
+    CodeIcon,
+    ExternalLinkIcon,
+    CheckCircleIcon,
+    FolderIcon
+} from "@heroicons/react/outline"
+
 import quadrad from "../assets/quadrad.png";
+import plnr from "../assets/plnr.png";
 
 function Projects() {
     return (
         <div className="pl-12 lg:pl-32 md:pl-24">
-            <h1 className="text-4xl text-slate-800 font-serif">projects</h1>
-            <div className="pl-12 pr-8 py-16 flex flex-row">
+            <h1 className="text-4xl text-slate-700 font-serif">projects</h1>
+            <div className="lg:pl-12 pr-24 py-16 lg:flex lg:flex-row">
                 <div>
-                    <h3 className="text-xl font-bold font-serif text-indigo-700 inline">Data Visualization Platform</h3>
+                    <CheckCircleIcon className="-ml-0.5 mr-2 h-4 w-4 inline text-teal-600" aria-hidden="true" />
+                    <p className="text-teal-600 inline">featured</p>
+                    <h3 className="text-xl font-bold font-serif text-slate-700">data visualization platform</h3>
+                    <a href="https://www.quadrad.io/" target="_blank" rel="noopener noreferrer">
+                        <button
+                            type="button"
+                            className="inline-flex items-center mt-3 px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-teal-600 transition-all motion-reduce:transition-none hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
+                        >
+                            <ExternalLinkIcon className="-ml-0.5 mr-2 h-4 w-4" aria-hidden="true" />
+                            view site
+                        </button>
+                    </a>
+                    <p className="pt-3 text-slate-600">
+                        a platform for visualizing product review data manually aggregated from several popular review sites.
+                        built for a client as a freelance developer. featured on "On Air with Ryan Seacrest" and <a href="https://www.youtube.com/watch?v=-sJLefg76sg" target="_blank" rel="noopener noreferrer" className="text-teal-600 transition-all motion-reduce:transition-none hover:text-teal-700 underline">"Fox 11 Los Angeles"</a>.
+                    </p>
+                    <div className="flex flex-row py-3 text-slate-400">
+                        <CodeIcon className="h-6 w-6 mr-3" />
+                        <p>javascript, express, react, mongoDB</p>
+                    </div>
                 </div>
                 <img
                     src={quadrad}
                     alt="data visualization platform screenshot"
-                    className="w-1/2 ml-24 rounded-3xl border-2 border-slate-200"
+                    className="w-full lg:w-1/2 h-min lg:ml-24 sm:mt-3 lg:mt-0 rounded-3xl drop-shadow-lg"
                 />
+            </div>
+            <div className="lg:pl-12 pr-8 py-16 lg:flex lg:flex-row">
+                <img
+                    src={plnr}
+                    alt="data visualization platform screenshot"
+                    className="w-full lg:w-1/2 h-min hidden lg:block rounded-3xl drop-shadow-lg"
+                />
+                <div className="lg:ml-24">
+                    <CheckCircleIcon className="-ml-0.5 mr-2 h-4 w-4 inline text-teal-600" aria-hidden="true" />
+                    <p className="text-teal-600 inline">featured</p>
+                    <h3 className="text-xl font-bold font-serif text-slate-700">course planner</h3>
+                    <a href="https://github.com/astraikis/plnr" target="_blank" rel="noopener noreferrer">
+                        <button
+                            type="button"
+                            className="inline-flex items-center mt-3 px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-teal-600 transition-all motion-reduce:transition-none hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
+                        >
+                            <ExternalLinkIcon className="-ml-0.5 mr-2 h-4 w-4" aria-hidden="true" />
+                            view source clone
+                        </button>
+                    </a>
+                    <p className="pt-3 text-slate-600">
+                        a web app for in depth course work tracking.
+                    </p>
+                    <div className="flex flex-row py-3 text-slate-400">
+                        <CodeIcon className="h-6 w-6 mr-3" />
+                        <p>django, react, postgresQL</p>
+                    </div>
+                </div>
+                <img
+                    src={plnr}
+                    alt="data visualization platform screenshot"
+                    className="w-full lg:w-1/2 sm:block lg:hidden h-min rounded-3xl drop-shadow-lg"
+                />
+            </div>
+            <div className="lg:pl-12 pr-24 py-12">
+                <div className="p-6 w-1/3 rounded-3xl border-2 border-slate-300">
+                    <div className="flex flex-row pt-3">
+                        <FolderIcon className="h-6 w-6 mr-3 text-slate-400" />
+                        <h3 className="text-xl font-bold font-serif text-slate-700">pyp</h3>
+                    </div>
+                    <a href="https://github.com/astraikis/pyp" target="_blank" rel="noopener noreferrer">
+                        <button
+                            type="button"
+                            className="inline-flex items-center mt-3 px-3 py-2 border border-transparent shadow-sm text-sm leading-4 font-medium rounded-md text-white bg-teal-600 transition-all motion-reduce:transition-none hover:bg-teal-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
+                        >
+                            <ExternalLinkIcon className="-ml-0.5 mr-2 h-4 w-4" aria-hidden="true" />
+                            view source clone
+                        </button>
+                    </a>
+                    <p className="pt-3 text-slate-600">
+                        a web app that scans food barcodes and scans for potentially harmful ingredients. won 1st place in the health category @ <span className="text-teal-600 font-bold">HackDuke 2021</span>.
+                    </p>
+                    <div className="flex flex-row py-3 text-slate-400">
+                        <CodeIcon className="h-6 w-6 mr-3" />
+                        <p>javascript, react, edamam food API</p>
+                    </div>
+                </div>
             </div>
         </div>
     )
