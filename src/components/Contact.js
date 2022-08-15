@@ -9,7 +9,7 @@ function Contact() {
                 <p className="text-slate-600 w-full md:w-1/2">
                     i'm always looking for opportunities to work with and meet new people so feel free to say hi!
                 </p>
-                <div className="flex flex-row pt-3 md:pt-0 md:pl-12 items-center">
+                <div className="flex flex-row pt-3 md:pt-0 md:pl-16 items-center">
                     <a href="https://github.com/astraikis" class="text-slate-400 transition-all motion-reduce:transition-none hover:text-slate-500 w-6" target="_blank" rel="noopener noreferrer">
                         <AiFillGithub size="1.5rem" />
                     </a>
