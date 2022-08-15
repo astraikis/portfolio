@@ -7,8 +7,8 @@ import resume from "../assets/resume.pdf";
 
 function Work() {
     return (
-        <div id='experience' className="pl-12 pt-24 lg:pl-32 md:pl-24">
-            <h1 className="text-4xl text-slate-700 font-serif">work experience</h1>
+        <div id='experience' className="pl-8 pt-24 lg:pl-32 md:pl-24">
+            <h1 className="text-4xl text-slate-700 font-serif w-4/5">work experience</h1>
             <div className="pr-8 lg:pr-16 pt-16 pb-12 lg:flex lg:flex-row">
                 <div className="pr-24">
                     <h3 className="text-xl font-bold font-serif text-teal-600 pb-2 lg:pb-0">IBM</h3>

@@ -9,7 +9,7 @@ function Navbar() {
     <Disclosure as="nav" className="bg-slate-50">
       {({ open }) => (
         <>
-          <div className="mx-auto px-2 sm:px-6 lg:px-16 fixed top-0 w-screen bg-gradient-to-r from-slate-50 via-sky-50 to-indigo-50 z-10">
+          <div className="mx-auto px-2 sm:px-6 lg:px-16 fixed top-0 w-screen bg-gradient-to-r from-sky-50 via-sky-100 to-indigo-100 z-10">
             <div className="relative flex justify-between h-16">
               <div className="absolute inset-y-0 right-0 flex items-center sm:hidden pr-5">
                 <Disclosure.Button className="justify-end p-2 rounded-md text-slate-400 hover:text-slate-500 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500">
@@ -58,7 +58,7 @@ function Navbar() {
           </div>
 
           <Disclosure.Panel className="sm:hidden">
-            <div className="pt-16 pb-4 pr-4 space-y-1 fixed top-0 w-screen">
+            <div className="pt-16 pb-4 pr-4 space-y-1 fixed top-0 w-screen bg-gradient-to-r from-sky-50 via-sky-100 to-indigo-100 z-0">
               {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
               <Disclosure.Button
                 as="a"

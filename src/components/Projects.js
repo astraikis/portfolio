@@ -10,7 +10,7 @@ import plnr from "../assets/plnr.png";
 
 function Projects() {
     return (
-        <div id="projects" className="pt-24 pb-12 pl-12 lg:pl-32 md:pl-24">
+        <div id="projects" className="pt-24 pb-12 pl-8 lg:pl-32 md:pl-24">
             <h1 className="text-4xl text-slate-700 font-serif">projects</h1>
             <div className="pr-8 lg:pr-16 pt-16 lg:pb-12 lg:flex lg:flex-row">
                 <div>
@@ -38,7 +38,7 @@ function Projects() {
                 <img
                     src={quadrad}
                     alt="data visualization platform screenshot"
-                    className="w-full lg:w-1/2 h-min lg:ml-24 sm:mt-3 lg:mt-0 rounded-3xl drop-shadow-lg"
+                    className="w-full lg:w-1/2 h-min lg:ml-24 mt-3 lg:mt-0 rounded-3xl drop-shadow-lg"
                 />
             </div>
             <div className="pr-8 lg:pr-16 pt-16 lg:pb-12 lg:flex lg:flex-row">
@@ -71,7 +71,7 @@ function Projects() {
                 <img
                     src={plnr}
                     alt="data visualization platform screenshot"
-                    className="w-full lg:w-1/2 sm:block lg:hidden h-min rounded-3xl drop-shadow-lg"
+                    className="w-full lg:w-1/2 sm:block lg:hidden h-min mt-3 lg:mt-0 rounded-3xl drop-shadow-lg"
                 />
             </div>
             <div className="pr-8 lg:pr-16 pt-16">
