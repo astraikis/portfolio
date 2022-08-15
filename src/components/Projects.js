@@ -38,14 +38,14 @@ function Projects() {
                 <img
                     src={quadrad}
                     alt="data visualization platform screenshot"
-                    className="w-full lg:w-1/2 h-min lg:ml-24 mt-3 lg:mt-0 rounded-3xl drop-shadow-lg"
+                    className="w-full lg:w-1/2 h-min lg:ml-24 mt-3 lg:mt-0 rounded-3xl drop-shadow-lg h-auto"
                 />
             </div>
             <div className="pr-8 lg:pr-16 pt-16 lg:pb-12 lg:flex lg:flex-row">
                 <img
                     src={plnr}
                     alt="data visualization platform screenshot"
-                    className="w-full lg:w-1/2 h-min hidden lg:block rounded-3xl drop-shadow-lg"
+                    className="w-full lg:w-1/2 h-min hidden lg:block rounded-3xl drop-shadow-lg h-auto"
                 />
                 <div className="lg:ml-24">
                     <CheckCircleIcon className="-ml-0.5 mr-2 h-4 w-4 inline text-teal-600" aria-hidden="true" />
@@ -71,7 +71,7 @@ function Projects() {
                 <img
                     src={plnr}
                     alt="data visualization platform screenshot"
-                    className="w-full lg:w-1/2 sm:block lg:hidden h-min mt-3 lg:mt-0 rounded-3xl drop-shadow-lg"
+                    className="w-full lg:w-1/2 sm:block lg:hidden h-min mt-3 lg:mt-0 rounded-3xl drop-shadow-lg h-auto"
                 />
             </div>
             <div className="pr-8 lg:pr-16 pt-16">
