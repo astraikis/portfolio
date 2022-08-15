@@ -4,7 +4,7 @@ import profilePic from "../assets/profile_pic.jpeg";
 
 function Hero() {
     return (
-        <div className="px-12 lg:px-32 md:px-24 pt-48 pb-48 flex items-center">
+        <div className="px-12 lg:px-32 md:px-24 pt-48 pb-36 flex items-center">
             <div>
                 <h1 className="text-5xl text-slate-700 font-serif">
                     hi, my name's jackson

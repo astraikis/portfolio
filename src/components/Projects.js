@@ -10,9 +10,9 @@ import plnr from "../assets/plnr.png";
 
 function Projects() {
     return (
-        <div className="pl-12 lg:pl-32 md:pl-24">
+        <div id="projects" className="pt-24 pb-12 pl-12 lg:pl-32 md:pl-24">
             <h1 className="text-4xl text-slate-700 font-serif">projects</h1>
-            <div className="lg:pl-12 pr-24 py-16 lg:flex lg:flex-row">
+            <div className="pr-8 lg:pr-16 pt-16 lg:pb-12 lg:flex lg:flex-row">
                 <div>
                     <CheckCircleIcon className="-ml-0.5 mr-2 h-4 w-4 inline text-teal-600" aria-hidden="true" />
                     <p className="text-teal-600 inline">featured</p>
@@ -41,7 +41,7 @@ function Projects() {
                     className="w-full lg:w-1/2 h-min lg:ml-24 sm:mt-3 lg:mt-0 rounded-3xl drop-shadow-lg"
                 />
             </div>
-            <div className="lg:pl-12 pr-8 py-16 lg:flex lg:flex-row">
+            <div className="pr-8 lg:pr-16 pt-16 lg:pb-12 lg:flex lg:flex-row">
                 <img
                     src={plnr}
                     alt="data visualization platform screenshot"
@@ -74,8 +74,8 @@ function Projects() {
                     className="w-full lg:w-1/2 sm:block lg:hidden h-min rounded-3xl drop-shadow-lg"
                 />
             </div>
-            <div className="lg:pl-12 pr-24 py-12">
-                <div className="p-6 w-1/3 rounded-3xl border-2 border-slate-300">
+            <div className="pr-8 lg:pr-16 pt-16">
+                <div className="p-6 lg:w-1/3 md:w-1/2 sm:w-full rounded-3xl border-2 border-slate-300">
                     <div className="flex flex-row pt-3">
                         <FolderIcon className="h-6 w-6 mr-3 text-slate-400" />
                         <h3 className="text-xl font-bold font-serif text-slate-700">pyp</h3>
