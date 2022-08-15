@@ -1,8 +1,8 @@
 import {
-    CodeIcon,
     ExternalLinkIcon,
     CheckCircleIcon,
-    FolderIcon
+    FolderIcon,
+    TerminalIcon
 } from "@heroicons/react/outline"
 
 import quadrad from "../assets/quadrad.png";
@@ -31,7 +31,7 @@ function Projects() {
                         built for a client as a freelance developer. featured on "On Air with Ryan Seacrest" and <a href="https://www.youtube.com/watch?v=-sJLefg76sg" target="_blank" rel="noopener noreferrer" className="text-teal-600 transition-all motion-reduce:transition-none hover:text-teal-700 underline">"Fox 11 Los Angeles"</a>.
                     </p>
                     <div className="flex flex-row py-3 text-slate-400">
-                        <CodeIcon className="h-6 w-6 mr-3" />
+                        <TerminalIcon className="h-6 w-6 mr-3" />
                         <p>javascript, express, react, mongoDB</p>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ function Projects() {
                         a web app for in depth course work tracking.
                     </p>
                     <div className="flex flex-row py-3 text-slate-400">
-                        <CodeIcon className="h-6 w-6 mr-3" />
+                        <TerminalIcon className="h-6 w-6 mr-3" />
                         <p>django, react, postgresQL</p>
                     </div>
                 </div>
@@ -93,7 +93,7 @@ function Projects() {
                         a web app that scans food barcodes and scans for potentially harmful ingredients. won 1st place in the health category @ <span className="text-teal-600 font-bold">HackDuke 2021</span>.
                     </p>
                     <div className="flex flex-row py-3 text-slate-400">
-                        <CodeIcon className="h-6 w-6 mr-3" />
+                        <TerminalIcon className="h-6 w-6 mr-3" />
                         <p>javascript, react, edamam food API</p>
                     </div>
                 </div>
