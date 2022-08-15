@@ -23,7 +23,7 @@ function Work() {
                     <p className="text-slate-600 w-full lg:w-2/3 pb-3"><ChevronRightIcon className="h-5 w-5 mr-4 text-teal-600 inline"/>Worked with management and the DevOps team to create dashboards that provided easy access to real-time key metrics and potential issues for production-level software.</p>
                 </div>
             </div>
-            <a href={resume} className="text-slate-400 hover:text-slate-600" target="_blank" rel="noopener noreferrer"><DownloadIcon className="h-5 w-5 mr-4 inline" />resume</a>
+            <a href={resume} className="text-slate-400 hover:text-slate-600 transition-all" target="_blank" rel="noopener noreferrer"><DownloadIcon className="h-5 w-5 mr-4 inline" />resume</a>
         </div>
     )
 }
