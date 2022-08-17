@@ -12,7 +12,7 @@ function Navbar() {
           <div className="mx-auto px-2 sm:px-6 lg:px-16 fixed top-0 w-screen bg-gradient-to-r from-sky-50 via-sky-100 to-indigo-100 z-10">
             <div className="relative flex justify-between h-16">
               <div className="absolute inset-y-0 right-0 flex items-center sm:hidden pr-5">
-                <Disclosure.Button className="justify-end p-2 rounded-md text-slate-400 hover:text-slate-500 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500">
+                <Disclosure.Button className="justify-end p-2 rounded-md text-slate-400 hover:text-slate-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XIcon className="block h-6 w-6" aria-hidden="true" />
